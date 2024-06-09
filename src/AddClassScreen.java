@@ -36,13 +36,13 @@ public class AddClassScreen extends JFrame implements ActionListener {
 
     private void adjustComponents(){
         // Add spacing around panels
-        borderPanel.setBorder(new EmptyBorder(200,300,200,300));
-        buttonPanel.setBorder(new EmptyBorder(100,0,100,0));
+        borderPanel.setBorder(new EmptyBorder(50,75,50,75));
+        buttonPanel.setBorder(new EmptyBorder(25,0,25,0));
 
         // Add spacing around JLabels
-        topPlannerName.setBorder(new EmptyBorder(50,50,50,50));
-        bottomPlannerName.setBorder(new EmptyBorder(50,50,50,50));
-        header.setBorder(new EmptyBorder(50, 20, 50, 20));
+        bottomPlannerName.setBorder(new EmptyBorder(10, 20, 10, 20));
+        topPlannerName.setBorder(new EmptyBorder(10, 20, 10, 20));
+        header.setBorder(new EmptyBorder(25, 20, 25, 20));
 
         // Set background colours for buttons
         addClassButton.setBackground(Color.LIGHT_GRAY);
