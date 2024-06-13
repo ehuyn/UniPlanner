@@ -26,7 +26,7 @@ public class Calendar extends JFrame implements ActionListener {
     private JTextArea fridayBox2;
     private JTextArea saturdayBox2;
     private JTextArea sundayBox2;
-    private  Map<String, String> savedData;
+    private  Map<String,String> savedData;
 
     public Calendar(Map<String, String> savedData) {
         this.savedData=savedData;

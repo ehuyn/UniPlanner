@@ -45,9 +45,10 @@ public class AverageCalculator extends JFrame implements ActionListener{
 
         // Calculate the average score
         double averageScore = totalCourses > 0 ? totalScore / totalCourses : 0;
+        double averageScoreRounded= Math.round(averageScore*100.0)/100.0;
 
         // Display the average score in the label
-        average.setText("Average Score of All Classes Combined: " + averageScore +"%");
+        average.setText("Average Score of All Classes Combined: " + averageScoreRounded +"%");
     }
 
     private void windowListener(){
